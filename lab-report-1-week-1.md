@@ -17,7 +17,7 @@ Open a new terminal and log in using the ssh command and your username. The comm
 `ssh cs15lfa22cq@ieng6.ucsd.edu`
 Ensure to enter your own username
 
-After doing this entewr your password. If you are connecting for the first time, you will receive a message asking if you want to connect. Respond with a yes. After successfully connecting you should see this: 
+After doing this enter your password. If you are connecting for the first time, you will receive a message asking if you want to connect. Respond with a yes. After successfully connecting you should see this: 
 
 ![Image](step2.png)
 

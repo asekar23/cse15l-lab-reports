@@ -9,11 +9,11 @@ This is a tutorial on how to log in to a course specific account on ieng6.
 In order to do this, follow the steps below closely:
 
 **Install VS code:** <br />
-To install VS code, go to [Visual Studio Code] (https://code.visualstudio.com/). You can download VS code on to your computer now. Once installed, this is what you should see:
+To install VS code, go to [Visual Studio Code](https://code.visualstudio.com/). You can download VS code on to your computer now. Once installed, this is what you should see:
 ![Image](csvode.png)
 
 **Resetting Password** <br />
-1. Go to (https://sdacs.ucsd.edu/~icc/index.php) <br />
+1. Go to [site to reset password](https://sdacs.ucsd.edu/~icc/index.php) <br />
 2. Input your UCSD username and PID <br />
 3. Click the blue button that says Submit <br />
 4. You will be able to see your course specific account on top. It should look like this : <br />

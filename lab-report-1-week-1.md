@@ -1,4 +1,4 @@
-# ** Lab Report 1**
+#  Lab Report 1
 ## *Advita Sekar*
 
 [Home](index.html)

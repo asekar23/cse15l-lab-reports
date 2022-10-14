@@ -19,9 +19,9 @@ To install VS code, go to [Visual Studio Code] (https://code.visualstudio.com/).
 4. You will be able to see your course specific account on top. It should look like this : <br />
 cs15lfa22zz <br />
 5. Once you click on your account name you will be directed to a page where you can change your password. <br />
-6. Enter your current password as well as your new password by following the isntruction provided to you. Make sure to include upper case letters, lower case letters, numbers, and symbols in your new password. Do not click the check password button as it will make you enter a new password again. All you have to do is select yes in the dropdown menu of the last input field and press enter/return on your keyboard.
-7. If you do this succesfully, you will be redirected to a page that says your password has been changed.
-8. Wait for 15-60 minutes and then follow the steps given below.
+6. Enter your current password as well as your new password by following the isntruction provided to you. Make sure to include upper case letters, lower case letters, numbers, and symbols in your new password. Do not click the check password button as it will make you enter a new password again. All you have to do is select yes in the dropdown menu of the last input field and press enter/return on your keyboard. <br />
+7. If you do this succesfully, you will be redirected to a page that says your password has been changed. <br />
+8. Wait for 15-60 minutes and then follow the steps given below. <br />
 
 
 **Remotely connecting:** <br />

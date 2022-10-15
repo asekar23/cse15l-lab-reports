@@ -102,7 +102,7 @@ Methods being called :
 3. The tests were failing due to the presence of multiple bugs in the code. I fixed the code and the new code is as follows:
 ![image](6thss2.png)
 
-4. The original code for the first method did not contain a temp variable. Thus, it was not reversing the array. By creating a temp variable the array was reversed succesfully.
+4. The original code for the first method did not contain a temp variable to store one variable in the array. Thus, it was not reversing the array. By creating a temp variable the array was reversed succesfully.
 
 
 ## ListExamples.java

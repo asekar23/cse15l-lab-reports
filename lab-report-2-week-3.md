@@ -56,10 +56,12 @@ In order to create the SearchEngine, I ran the following code: <br />
         Server.start(port, new Handler());
         }
     }
+
 Now, I will demonstrate how to use this by including at least one add and one query, showing the URL in the browser and the response on the page.
 
 ADD:<br />
-![1st add](firstss2.png)
+![1st add](firstss2.png) <br />
+In this screenshot the argument is pineapple and it is being added to the list. <br />
 Methods being called:
 1. getquery()-returns a string which is the query of the URL. (/add)
 2. getpath()- returns a string which is the path of the URL.(?s=pineapple)
@@ -68,7 +70,8 @@ Methods being called:
 
 
 
-![2nd add](2ndss2.png)
+![2nd add](2ndss2.png) <br />
+In the above screenshot, apple is the argument and it is being added to the list. <br />
 
 Methods being called:
 1. getquery()-returns a string which is the query of the URL. (?s=apple)
@@ -80,6 +83,9 @@ Methods being called:
 
 QUERY: <br />
 ![3rd add](3rdss2.png)
+
+In this screenshot, all the items in the list containing the string "app" are visible in the list. Thus, we can see apple and pineapple.
+
 Methods being called :
 1. getquery()-returns a string which is the query of the URL. (?s=app)
 2. getpath()- returns a string which is the path of the URL. (/search)

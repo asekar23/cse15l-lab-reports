@@ -86,8 +86,8 @@ Methods being called:
 QUERY: <br />
 ![3rd add](3rdss2.png)
 
-In this screenshot, all the items in the list containing the string "app" are visible in the list. Thus, we can see apple and pineapple.
-
+In this screenshot, all the items in the list containing the string "app" are visible in the list. Thus, we can see apple and pineapple. <br />
+The values of the parameters constantly change as new words as added. The parameter[1] changes to the new word being added. <br />
 Methods being called :
 1. getquery()-returns a string which is the query of the URL. (?s=app)
 2. getpath()- returns a string which is the path of the URL. (/search)

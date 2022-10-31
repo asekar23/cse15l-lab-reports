@@ -7,7 +7,7 @@ In this Lab Report, I will be demonstrating 3 command line options or alternativ
 
 ## `grep-w` <br />
 
-This command searches for all words in a file that match a particular string. It can be useful to look for search for specific things in a file in a quicker and more efficient manner.
+This command searches for all words in a file that match a particular string. It can be useful to look for search for specific things in a file in a quicker and more efficient manner. <br />
 
 1.      grep -w "journal" find-results.txt
         technical/plos/journal.pbio.0030032.txt
@@ -112,7 +112,8 @@ This command searches for all words in a file that match a particular string. It
         technical/plos/journal.pbio.0020013.txt
         technical/plos/journal.pbio.0020172.txt
         technical/plos/journal.pbio.0020012.txt
-This searches for all lines that contain the string "journal" within the file find-results.txt.
+
+This searches for all lines that contain the string "journal" within the file find-results.txt. <br />
 
 2.      grep -w "pbio" find-results.txt
         technical/plos/journal.pbio.0030032.txt
@@ -217,7 +218,8 @@ This searches for all lines that contain the string "journal" within the file fi
         technical/plos/journal.pbio.0020013.txt
         technical/plos/journal.pbio.0020172.txt
         technical/plos/journal.pbio.0020012.txt
-This searches for all lines that contain the string "pbio" within the file find-results.txt.
+
+This searches for all lines that contain the string "pbio" within the file find-results.txt. <br />
 
 3.       grep -w "pmed" find-results.txt
         technical/plos/pmed.0020273.txt
@@ -387,7 +389,7 @@ This searches for the count of the word "pmed" within the file find-results.txt.
 This searches for the count of the word "medicine" within the file find-results.txt. It is seen 0 times as it is absent <br />
 
 ## `grep-n` <br />
-This command can be used to search what line numbers a particular string is present in. It can be used to easily find words that in a file without having to scroll through and read all the information in the file.
+This command can be used to search what line numbers a particular string is present in. It can be used to easily find words that in a file without having to scroll through and read all the information in the file. <br />
 
 1.      grep -n "pmed" find-results.txt
         2:technical/plos/pmed.0020273.txt
@@ -540,11 +542,13 @@ This command can be used to search what line numbers a particular string is pres
         250:technical/plos/pmed.0020068.txt
         252:technical/plos/pmed.0020281.txt
         253:technical/plos/pmed.0020242.txt
-This searches up all the line numbers the word "pmed" is present within the file find-results.txt.
+
+This searches up all the line numbers the word "pmed" is present within the file find-results.txt. <br />
 
 2.      grep -n "0020281" find-results.txt
         252:technical/plos/pmed.0020281.txt
-This searches up all the line numbers "0020281" is present within the file find-results.txt.
+
+This searches up all the line numbers "0020281" is present within the file find-results.txt. <br />
 
 
 3.      grep -n "pbio" find-results.txt
@@ -650,4 +654,5 @@ This searches up all the line numbers "0020281" is present within the file find-
         241:technical/plos/journal.pbio.0020013.txt
         248:technical/plos/journal.pbio.0020172.txt
         251:technical/plos/journal.pbio.0020012.txt
-This searches up all the line numbers the word "pbio" is present within the file find-results.txt.
+
+This searches up all the line numbers the word "pbio" is present within the file find-results.txt. <br />

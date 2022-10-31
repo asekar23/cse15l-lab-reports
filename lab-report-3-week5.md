@@ -392,7 +392,7 @@ This searches for the count of the word "pmed" within the file find-results.txt.
 This searches for the count of the word "medicine" within the file find-results.txt. It is seen 0 times as it is absent <br />
 
 ## `grep-n` <br />
-This command can be used to search what line numbers a particular string is present in. It can be used to easily find words that in a file without having to scroll through and read all the information in the file. <br />
+This command can be used to search what line numbers a particular string is present in. It can be used to easily find words that are in a file without having to scroll through and read all the information in the file. <br />
 
       grep -n "pmed" find-results.txt
         2:technical/plos/pmed.0020273.txt

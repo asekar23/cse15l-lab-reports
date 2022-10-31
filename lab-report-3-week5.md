@@ -373,17 +373,19 @@ This searches for all lines that contain the string "pbio" within the file find-
         technical/plos/pmed.0020068.txt
         technical/plos/pmed.0020281.txt
         technical/plos/pmed.0020242.txt
+
 This searches for all lines that contain the string "pmed" within the file find-results.txt. <br />
+
 ## `grep-c` <br />
-This command searches for the count of a particular string in a file. It can be used to find how abundant a word is in a file and can give us an idea of what the information in the file is mainly about.
+This command searches for the count of a particular string in a file. It can be used to find how abundant a word is in a file and can give us an idea of what the information in the file is mainly about. <br />
 
       grep -c "journal" find-results.txt
         102
-This searches for the count of the word "journal" within the file find-results.txt. It is seen 102 times.
+This searches for the count of the word "journal" within the file find-results.txt. It is seen 102 times. <br />
 
       grep -c "pmed" find-results.txt
         150
-This searches for the count of the word "pmed" within the file find-results.txt. It is seen 150 times.
+This searches for the count of the word "pmed" within the file find-results.txt. It is seen 150 times. <br />
 
       grep -c "medicine" find-results.txt
         0

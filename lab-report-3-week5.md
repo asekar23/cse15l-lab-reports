@@ -9,7 +9,7 @@ In this Lab Report, I will be demonstrating 3 command line options or alternativ
 
 This command searches for all words in a file that match a particular string. It can be useful to look for search for specific things in a file in a quicker and more efficient manner. <br />
 
-1.      grep -w "journal" find-results.txt
+      grep -w "journal" find-results.txt
         technical/plos/journal.pbio.0030032.txt
         technical/plos/journal.pbio.0020354.txt
         technical/plos/journal.pbio.0020156.txt
@@ -112,11 +112,11 @@ This command searches for all words in a file that match a particular string. It
         technical/plos/journal.pbio.0020013.txt
         technical/plos/journal.pbio.0020172.txt
         technical/plos/journal.pbio.0020012.txt
-     ~~~   
+        
 
  This searches for all lines that contain the string "journal" within the file find-results.txt. <br />
 
-2.      grep -w "pbio" find-results.txt
+      grep -w "pbio" find-results.txt
         technical/plos/journal.pbio.0030032.txt
         technical/plos/journal.pbio.0020354.txt
         technical/plos/journal.pbio.0020156.txt
@@ -222,7 +222,7 @@ This command searches for all words in a file that match a particular string. It
 
 This searches for all lines that contain the string "pbio" within the file find-results.txt. <br />
 
-3.       grep -w "pmed" find-results.txt
+       grep -w "pmed" find-results.txt
         technical/plos/pmed.0020273.txt
         technical/plos/pmed.0020065.txt
         technical/plos/pmed.0020071.txt
@@ -377,22 +377,22 @@ This searches for all lines that contain the string "pmed" within the file find-
 ## `grep-c` <br />
 This command searches for the count of a particular string in a file. It can be used to find how abundant a word is in a file and can give us an idea of what the information in the file is mainly about.
 
-1.      grep -c "journal" find-results.txt
+      grep -c "journal" find-results.txt
         102
 This searches for the count of the word "journal" within the file find-results.txt. It is seen 102 times.
 
-2.      grep -c "pmed" find-results.txt
+      grep -c "pmed" find-results.txt
         150
 This searches for the count of the word "pmed" within the file find-results.txt. It is seen 150 times.
 
-3.      grep -c "medicine" find-results.txt
+      grep -c "medicine" find-results.txt
         0
 This searches for the count of the word "medicine" within the file find-results.txt. It is seen 0 times as it is absent <br />
 
 ## `grep-n` <br />
 This command can be used to search what line numbers a particular string is present in. It can be used to easily find words that in a file without having to scroll through and read all the information in the file. <br />
 
-1.      grep -n "pmed" find-results.txt
+      grep -n "pmed" find-results.txt
         2:technical/plos/pmed.0020273.txt
         4:technical/plos/pmed.0020065.txt
         5:technical/plos/pmed.0020071.txt
@@ -546,13 +546,13 @@ This command can be used to search what line numbers a particular string is pres
 
 This searches up all the line numbers the word "pmed" is present within the file find-results.txt. <br />
 
-2.      grep -n "0020281" find-results.txt
+      grep -n "0020281" find-results.txt
         252:technical/plos/pmed.0020281.txt
 
 This searches up all the line numbers "0020281" is present within the file find-results.txt. <br />
 
 
-      grep -n "pbio" find-results.txt
+     grep -n "pbio" find-results.txt
         3:technical/plos/journal.pbio.0030032.txt
         8:technical/plos/journal.pbio.0020354.txt
         10:technical/plos/journal.pbio.0020156.txt

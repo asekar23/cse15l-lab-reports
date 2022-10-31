@@ -381,18 +381,20 @@ This command searches for the count of a particular string in a file. It can be 
 
     grep -c "journal" find-results.txt
     102
-<br />
+
+
 This searches for the count of the word "journal" within the file find-results.txt. It is seen 102 times. <br />
 
     grep -c "pmed" find-results.txt
     150
-<br />
+
 
 This searches for the count of the word "pmed" within the file find-results.txt. It is seen 150 times. <br />
 
     grep -c "medicine" find-results.txt
     0
-<br />
+
+
 This searches for the count of the word "medicine" within the file find-results.txt. It is seen 0 times as it is absent <br />
 
 ## `grep-n` <br />

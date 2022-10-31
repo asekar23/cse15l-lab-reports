@@ -112,8 +112,9 @@ This command searches for all words in a file that match a particular string. It
         technical/plos/journal.pbio.0020013.txt
         technical/plos/journal.pbio.0020172.txt
         technical/plos/journal.pbio.0020012.txt
+     ~~~   
 
-This searches for all lines that contain the string "journal" within the file find-results.txt. <br />
+ This searches for all lines that contain the string "journal" within the file find-results.txt. <br />
 
 2.      grep -w "pbio" find-results.txt
         technical/plos/journal.pbio.0030032.txt
@@ -551,7 +552,7 @@ This searches up all the line numbers the word "pmed" is present within the file
 This searches up all the line numbers "0020281" is present within the file find-results.txt. <br />
 
 
-3.      grep -n "pbio" find-results.txt
+      grep -n "pbio" find-results.txt
         3:technical/plos/journal.pbio.0030032.txt
         8:technical/plos/journal.pbio.0020354.txt
         10:technical/plos/journal.pbio.0020156.txt

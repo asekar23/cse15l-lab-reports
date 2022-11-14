@@ -11,7 +11,7 @@ The steps to complete the task of changing the name of the start parameter and i
 2. Use the command `vim DocSearchServer.java` in order to enter the file on the remote server. <br /> 
 3. Go into insert mode using the `i` key. <br />
 4. Use the arrows to scroll to `class FileHelpers` and using the right and left arrows go to the `start` paramter. Enter `base` in place of `start` using backspace and the keys everywhere in that class. <br />
-5. Escape insert mode using <Esc>. Then in order to save the changes and exit the file, use `:wq` <Enter>  <br />
+5. Escape insert mode using < Esc >. Then in order to save the changes and exit the file, use `wq:` and then < Enter >  <br />
 6. The changed code should look like this: <br />
 ![Image](vim.png)
 

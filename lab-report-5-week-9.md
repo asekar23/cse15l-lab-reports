@@ -49,7 +49,7 @@ fi
 Below are 3 screenshots of 3 different student submissions and the grade that is reported on the browser : <br />
 
 ![Image](lab5ss1.png) <br />
-This has an incompatible type as StrngChecker cannot be converted to ListExamples. <br />
+This has an incompatible type as StringChecker cannot be converted to ListExamples. <br />
 
 ![Image](lab5ss2.png) <br />
 This shows a syntax error due to a missing `;` which produces a compile error. <br />

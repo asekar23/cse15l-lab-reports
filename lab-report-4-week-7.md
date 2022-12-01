@@ -7,7 +7,8 @@
 
 The steps to complete the task of changing the name of the start parameter and its uses to base in the file DocSearchServer.java in week6-skill-demo1 are given below: <br />
 
-1. cd into the directory `week6-skill-demo1`.<br />
+1. cd into the directory `week6-skill-demo1` by using the command :<br />
+`cd week6-skill-demo1`
 2. Use the command `vim DocSearchServer.java` in order to enter the file on the remote server. <br /> 
 3. Go into insert mode using the `i` key. <br />
 4. Use the up arrow 60 times  to scroll to the `start` parameter in`class FileHelpers` and press the right arrow 40 times go to the `start` paramter. Enter `base` in place of `start` using backspace 5 times and then enter `base`. Then press the down arrow once and the left arrow 10 times and backspace 5 times to delete `start`. Enter `base`in place of `start` again. Enter the down arrow 9 times and the right arrow 6 times. Use backspace 5 times to delete `start` and enter `base` in place of it. Now, you have successfully entered `base` in place of the `start` paramter at all of its occurences. <br />

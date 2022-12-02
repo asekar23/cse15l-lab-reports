@@ -15,17 +15,17 @@ The steps to complete the task of changing the name of the start parameter and i
 ``` 
 static List <File> getFiles(Path start) throws IOException{
 ```
- Use < backspace > 5 times and delete start and enter `base` in place of it. <br /> 
+ Use < backspace > 5 times and delete start and enter `base` in place of it. This requires 4 key strokes. <br /> 
  Then scroll and click on the `start` paramter in the next occurence in the line:
 ```
 File F= start.toFile();
 ```
-Use < backspace > 5 times and delete start and enter `base` in place of it. <br />
+Use < backspace > 5 times and delete start and enter `base` in place of it.  This requires 4 key strokes.<br />
 Then scroll and click on the `start` paramter in the next occurence in the line:
 ```
  result.add(start.toFile());
  ```
- Use < backspace > 5 times and delete start and enter `base` in place of it. <br />
+ Use < backspace > 5 times and delete start and enter `base` in place of it. This requires 4 key strokes. <br />
  Now, you have successfully entered `base` in place of the `start` paramter at all of its occurences. <br />
 5. Escape insert mode using < Esc >. Then in order to save the changes and exit the file, use `:wq` and then < Enter >  <br />
 6. The changed code should look like this: <br />
